@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service as FirefoxService
 from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions
 
 # Set up the Firefox Driver with WebDriverManger
 service = FirefoxService(GeckoDriverManager().install())
