@@ -1,3 +1,5 @@
+package activities;
+
 class CustomException extends Exception {
     private String message = null;
 

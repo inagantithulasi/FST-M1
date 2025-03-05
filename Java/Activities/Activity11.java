@@ -1,3 +1,5 @@
+package activities;
+
 import java.util.HashMap;
 
 public class Activity11 {

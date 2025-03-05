@@ -1,3 +1,5 @@
+package activities;
+
 import java.util.Arrays;
 
 class Activity4 {

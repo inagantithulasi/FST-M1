@@ -1,6 +1,8 @@
+package activities;
+
 interface BicycleParts {
-    public int gears = 0;
-    public int currentSpeed = 0;
+    public int tyres = 2;
+    public int maxSpeed = 25;
 }
 
 interface BicycleOperations {
@@ -33,7 +35,7 @@ class Bicycle implements BicycleParts, BicycleOperations {
 
     //Method to print info of Bicycle
     public String bicycleDesc() {
-        return("No of gears are "+ gears + "\nSpeed of bicycle is " + currentSpeed);
+        return("No of gears are "+ gears + "\nSpeed of bicycle is " + maxSpeed);
     }
 }
 

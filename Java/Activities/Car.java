@@ -1,5 +1,6 @@
+package activities;
+
 public class Car {
-    //Class Member Variables
     String color;
     int make;
     String transmission;
@@ -12,7 +13,7 @@ public class Car {
 	doors = 4;
     }
 
-    //Class Methods
+    
     public void displayCharacterstics(){
 	System.out.println("Color of the Car: " + color);
 	System.out.println("Make of the Car: " + make);
